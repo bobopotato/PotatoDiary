@@ -1,0 +1,22 @@
+
+.task-total-progress-bar {
+    margin: var(--gap) 0px;
+}
+
+.total-task-count {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: calc(var(--gap) / 2);
+}
+
+.color-dot {
+    width: 10px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+}
+
+.task-total-text {
+    font-size: 0.85rem;
+    color: var(--text-gray);
+}

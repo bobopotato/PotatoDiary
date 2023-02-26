@@ -1,0 +1,36 @@
+.base-text-field-form {
+    width: 100%;
+    padding: var(--gap) calc(var(--gap) /2);
+}
+
+.form-control:not(:focus)::placeholder {
+    color: rgba(0,0,0,0.25);
+}
+
+.form-control.non-required:valid {
+    background-image: none;
+    border-color: unset;
+}
+
+.required-star {
+    color: red;
+}
+
+.base-text-field-label {
+    display: flex;
+}
+
+/* .form-control::placeholder {
+    color: red
+} */
+
+/* @function get-transition-duration($transitions) {
+    $max-duration: 0s;
+
+    @each $transition in $transitions {
+        $duration: nth($transition, 2);
+        $max-duration: max($max-duration, $duration);
+    }
+
+    @return $max-duration;
+} */

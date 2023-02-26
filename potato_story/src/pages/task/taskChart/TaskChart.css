@@ -1,0 +1,17 @@
+.task-chart-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: var(--gap);
+    /* height: 100px; */
+    max-height: 400px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: var(--card-box-shadow);
+    background: white;
+    /* width: clamp(100px, 60%, 60%); */
+    flex:2;
+}
+
+.task-chart-bar {
+    position: relative;
+}

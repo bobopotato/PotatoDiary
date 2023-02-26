@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100vh;
+    width: 100vw;
+    background: var(--bg-gray);
+}
+
+body,
+input {
+    font-family: 'Poppins', sans-serif;
+}
+
+.app-wrapper {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    background: var(--bg-gray);
+}
+
+:root {
+    /* SIZE UNIT */
+    --gap: 15px;
+    --navbar-height: 64px;
+    --expanded-side-menu-width: clamp(200px, 25vw, 200px);
+    --collapsed-side-menu-width: clamp(60px, 10vw, 100px);
+    --side-menu-width: var(--expanded-side-menu-width);
+    --content-page-height: calc(100vh - var(--navbar-height));
+    --content-page-width: calc(100vw - var(--side-menu-width));
+    /* --task-list-card-width: calc(calc(var(--content-page-width) / 2) - calc(var(--gap * 10))); */
+
+    /* COLOR */
+    --main-color: rgb(255, 90, 0);
+    --sub-color: rgb(255, 132, 66);
+    --bg-light: rgb(80, 80, 80);
+    --bg-dark: rgb(45, 45, 45);
+    --bg-gray: rgb(238, 240, 244);
+    --text-light: white;
+    --text-dark: black;
+    --text-gray:rgba(128,128,128, 0.75);
+
+    /* ANIMATION */
+    --common-trans: 0.25s ease;
+
+    /* CARD */
+    --card-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    --card-border-radius: 15px;
+}
+

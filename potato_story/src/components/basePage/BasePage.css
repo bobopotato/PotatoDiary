@@ -1,0 +1,19 @@
+.base-page-wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: var(--navbar-height);
+    padding-left: var(--side-menu-width);
+    width: 100%;
+    height: 100%;
+}
+
+.base-page-container {
+    min-height: 100%;
+    padding: var(--gap);
+    height: 100%;
+}
+
+.base-page-children-container {
+    height: 90%;
+}

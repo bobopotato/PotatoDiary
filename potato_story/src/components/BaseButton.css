@@ -1,0 +1,10 @@
+
+
+.custom-button {
+    transition: var(--common-trans);
+}
+
+.custom-button:hover {
+    background-color: unset !important;
+    scale: 1.025;
+}

@@ -1,0 +1,36 @@
+
+.task-list-wrapper {
+    height: 100%;
+}
+
+.task-list-container {
+    height: 100%;
+}
+
+.task-list-header {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-list-filter-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: var(--gap);
+}
+
+.task-list-body {
+    /* height: 100%; */
+    padding: var(--gap);
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap);
+
+}
+
+.task-list-view-more-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}

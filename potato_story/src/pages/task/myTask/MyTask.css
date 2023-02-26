@@ -1,0 +1,24 @@
+.task-wrapper {
+}
+.task-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: var(--gap);
+    padding: var(--gap);
+}
+
+.task-bottom-container {
+    /* height: 30vh; */
+    padding: var(--gap);
+    display: flex;
+    gap: var(--gap);
+    
+}
+
+.my-task-header {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--gap);
+}
+
+

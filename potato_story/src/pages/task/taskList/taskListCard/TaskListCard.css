@@ -1,0 +1,43 @@
+.task-list-card-wrapper {
+    padding: var(--gap);
+    box-shadow: var(--card-box-shadow);
+    border-radius: var(--card-border-radius);
+    cursor: pointer;
+    transition: var(--common-trans);
+    width: 100px;
+    width: calc((100% - (var(--gap) * 2)) / 3);
+    /* width: 100%; */
+    background: white;
+    /* flex: auto; */
+    /* aspect-ratio: 1/1; */
+}
+
+.task-list-card-wrapper:hover {
+    scale: 1.025;
+}
+
+.task-list-date-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: var(--text-gray);
+}
+
+.task-list-name {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.task-list-description {
+    color: var(--text-gray);
+    font-size: 0.9rem;
+}
+
+.task-list-category, .task-list-status {
+    font-size: 0.9rem;
+}
+
+.task-list-status {
+    display: flex;
+    gap: calc(var(--gap)/2);
+}

@@ -1,0 +1,58 @@
+
+.task-category-wrapper {
+    width: 100%;
+    padding: var(--gap) 0px;
+    padding-right: 5px;
+    border-radius: 20px;
+    box-shadow: var(--card-box-shadow);
+    height: 40vh;
+    background: white;
+}
+
+.task-category-inner-wrapper {
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.task-category-title {
+    padding: 0px var(--gap);
+    position: sticky;
+    top: 0;
+    background: white;
+    padding-bottom: 5px;
+    z-index: 2;
+}
+
+.task-category-container {
+    margin-right: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.task-category-inner-wrapper::-webkit-scrollbar {
+    width: 0.5em;
+    height: 0.5em;
+    opacity: 0;
+    margin: 10px;
+
+}
+
+.task-category-inner-wrapper::-webkit-scrollbar-thumb {
+    background-color: rgba(128, 128, 128, 0.2);
+    border-radius: 3px;
+    width: 100%;
+}
+
+.view-more-button {
+    position: relative;
+    /* background: red; */
+    /* width: 100%; */
+    text-align: center;
+    margin-top: var(--gap);
+    margin-left: var(--gap);
+    margin-right: var(--gap);
+    padding-bottom: calc(var(--gap));
+    display: flex;
+    justify-content: center;
+}

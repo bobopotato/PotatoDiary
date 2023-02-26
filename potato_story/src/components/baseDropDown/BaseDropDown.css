@@ -1,0 +1,20 @@
+.base-drop-down-wrapper {
+    /* width: 100%; */
+    padding: var(--gap) calc(var(--gap) /2);
+}
+.dropdown-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown-item.selected {
+    color: var(--main-color);
+}
+
+.no-data-found {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: var(--gap);
+    color: var(--text-gray);
+}

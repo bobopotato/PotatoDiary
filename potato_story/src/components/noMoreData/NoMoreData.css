@@ -1,0 +1,10 @@
+.no-more-data-wrapper {
+    padding: var(--gap);
+    width: 100%;
+    text-align: center;
+    color: var(--text-gray);
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    font-size: 0.8rem;
+}

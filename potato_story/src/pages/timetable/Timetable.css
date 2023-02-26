@@ -1,0 +1,21 @@
+
+.time-table-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.rbc-event-content {
+    /* background: red;  */
+}
+
+.rbc-event .rbc-event-allday, .rbc-event-continues-prior, .rbc-event-continues-after {
+    background: var(--sub-color) !important; 
+
+}
+
+.rbc-row-segment, .rbc-row {
+    /* background: red; */
+}
+
+/* .time-table-wrapper > div {} */

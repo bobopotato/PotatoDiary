@@ -1,0 +1,17 @@
+version: "3.8"
+services: 
+  server: 
+    build: ./potato_api
+    container_name: server_container
+    ports: 
+      - '8080:8080'
+    volumes: 
+      - ./potato_api:/app
+      - /app/node_modules
+  client:
+    build: ./potato_story
+    container_name: client_container
+    ports:
+      - '3000:3000'
+    stdin_open: true
+    tty: true

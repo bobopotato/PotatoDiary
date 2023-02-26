@@ -1,0 +1,29 @@
+.progress-bar-with-dots-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: var(--gap);
+}
+
+.task-progress-bar-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 10px;
+    flex:1;
+    overflow: visible;
+
+}
+.task-progress-bar-with-dots {
+    height: 100%;
+    background-color: var(--main-color);
+    line-height: 1;
+}
+.progress-dot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: var(--sub-color);
+    border-radius: 100%;
+}
+
