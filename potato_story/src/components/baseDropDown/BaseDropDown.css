@@ -1,9 +1,10 @@
 .base-drop-down-wrapper {
     /* width: 100%; */
     padding: var(--gap) calc(var(--gap) /2);
+    overflow:visible;
 }
 .dropdown-item {
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
 }
 
@@ -17,4 +18,14 @@
     align-items: center;
     padding: var(--gap);
     color: var(--text-gray);
+}
+
+.base-drop-down-menu-container {
+    max-height: 200px;
+}
+
+.dropdown-menu {
+    height: 500px;
+    color: white !important;
+    overflow-y: scroll;
 }

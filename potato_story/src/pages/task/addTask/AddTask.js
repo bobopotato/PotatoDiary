@@ -93,6 +93,18 @@ const AddTask = ({ onCreateNewTask }) => {
             noValidate
             validated={isValidating}
           >
+            <BaseDropDown
+              title="Category"
+              apiKey="categoriesId"
+              multiSelect={true}
+              onChange={handleOnChange}
+              options={
+                taskCategoryList &&
+                taskCategoryList.map((taskCategory) => {
+                  return { value: taskCategory.id, title: taskCategory.name };
+                })
+              }
+            />
             <BaseTextField
               type={BaseTextFieldType.text}
               apiKey="name"
@@ -116,18 +128,7 @@ const AddTask = ({ onCreateNewTask }) => {
               value={submitObj && submitObj.remark}
               onChange={handleOnChange}
             />
-            <BaseDropDown
-              title="Category"
-              apiKey="categoriesId"
-              multiSelect={true}
-              onChange={handleOnChange}
-              options={
-                taskCategoryList &&
-                taskCategoryList.map((taskCategory) => {
-                  return { value: taskCategory.id, title: taskCategory.name };
-                })
-              }
-            />
+            
           </Form>
         </Modal.Body>
         <Modal.Footer>

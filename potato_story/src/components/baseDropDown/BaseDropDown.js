@@ -73,7 +73,7 @@ const BaseDropDown = ({
             ? selectedValue.map((item) => item.title).join(", ")
             : emptyText}
         </Dropdown.Toggle>
-        <Dropdown.Menu>
+        <Dropdown.Menu className="base-drop-down-menu-container">
           {!options || options.length === 0 ? (
             <div className="no-data-found">No Data Found</div>
           ) : (
